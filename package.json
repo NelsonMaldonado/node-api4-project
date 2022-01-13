@@ -4,7 +4,9 @@
   "description": "In this challenge, you will build a simple Express app and deploy it to Heroku.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemone index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/NelsonMaldonado/node-api4-project/issues"
   },
-  "homepage": "https://github.com/NelsonMaldonado/node-api4-project#readme"
+  "homepage": "https://github.com/NelsonMaldonado/node-api4-project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
